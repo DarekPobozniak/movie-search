@@ -1,0 +1,30 @@
+.search-form {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+
+  &__label {
+    max-width: 120px;
+    flex: 1 0 110px;
+  }
+
+  &__input {
+    border: 1px solid var(--oc-gray-4);
+    flex: 1;
+    margin-right: 0.4em;
+    max-width: 40em;
+    padding: 0.6em;
+  }
+
+  &__button {
+    background: var(--oc-gray-1);
+    border: 1px solid var(--oc-gray-4);
+    margin: 0.4em 0;
+    padding: 0.6em 1em;
+
+    &:hover {
+      background: var(--oc-gray-3);
+    }
+  }
+}

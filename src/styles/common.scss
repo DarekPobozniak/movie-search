@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  color: var(--oc-gray-8);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex: 1;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: var(--max-page-width);
+}
+
+.page-header {
+  background: var(--oc-gray-7);
+  color: var(--oc-gray-3);
+  margin-bottom: 2em;
+  padding: 1em 0;
+
+  .page-title {
+    font-weight: 400;
+    margin: 0;
+  }
+}
+
+.page-footer {
+  background: var(--oc-gray-7);
+  color: var(--oc-gray-3);
+  margin-top: 2em;
+  padding: 1em 0;
+}
