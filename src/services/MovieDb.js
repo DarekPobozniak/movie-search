@@ -1,4 +1,4 @@
-import Fetch from '../fetch';
+import FetchHandler from '../fetchHandler';
 
 /**
  * MovieDb
@@ -44,8 +44,8 @@ export default class MovieDb {
     const url = `${this.apiUrl}&page=${page}&query=${encodeURIComponent(query)}`;
 
     return fetch(url)
-      .then(Fetch.checkStatus)
-      .then(Fetch.parseJSON)
+      .then(FetchHandler.checkStatus)
+      .then(FetchHandler.parseJSON)
       .catch(error => Promise.reject(error));
   }
 }

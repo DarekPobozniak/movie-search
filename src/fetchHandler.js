@@ -2,7 +2,7 @@
  * Defines a custom response handler for window.fetch
  * @type {Object}
  */
-const Fetch = {
+const FetchHandler = {
   /**
    * Rejects Promise on HTTP non-2xx error statuses
    *
@@ -28,4 +28,4 @@ const Fetch = {
   },
 };
 
-export default Fetch;
+export default FetchHandler;
