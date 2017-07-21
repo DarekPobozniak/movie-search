@@ -46,7 +46,6 @@ export default class MovieDb {
     return fetch(url)
       .then(Fetch.checkStatus)
       .then(Fetch.parseJSON)
-      .then(json => json)
       .catch(error => Promise.reject(error));
   }
 }
