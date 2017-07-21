@@ -1,0 +1,15 @@
+.pagination {
+  margin-top: 2em;
+  text-align: center;
+
+  &__item {
+    background: var(--oc-gray-1);
+    border: 1px solid var(--oc-gray-4);
+    margin: 0.2em;
+    padding: 0.4em 0.6em;
+
+    &:hover:not([disabled]) {
+      background: var(--oc-gray-3);
+    }
+  }
+}
