@@ -43,7 +43,7 @@
     "html-webpack-plugin": "^2.29.0",
     "jest": "^20.0.4",
     "lint-staged": "^4.0.2",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.11.0",
     "pre-commit": "^1.2.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
@@ -55,5 +55,5 @@
   "dependencies": {
     "normalize.css": "^7.0.0"
   },
-  "repository": "https://github.com/DarekPobozniak/movie-search.git"
+  "repository": "https://github.com/dpobozniak/movie-search.git"
 }
